@@ -2,7 +2,8 @@ package programm3;
 
 class XKopie {
 	public static void main(String [] args) {
-		int orig = 42;
+		
+		int orig = 43;
 		XKopie x = new XKopie();
 		int y = x.los(orig);
 		System.out.println(orig + " " + y);
