@@ -16,10 +16,11 @@ public class settest {
 
 		//Lottozahlen ausgeben
 		Iterator it = set.iterator();
+		
 		while (it.hasNext()) {
 			System.out.println(((Integer)it.next()).toString());
 		}
 		
-		System.out.println("Ignorierte Dubletten: " +dubletten);
+		System.out.println("Ignorierte alle Dubletten: " +dubletten);
 	}
 }
