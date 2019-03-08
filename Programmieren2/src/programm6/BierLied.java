@@ -1,4 +1,4 @@
-package programm5;
+package programm6;
 
 public class BierLied
 {
