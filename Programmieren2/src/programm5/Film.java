@@ -1,10 +1,16 @@
-class Film {
-	String titel;
-	String genre;
-	int bewertung;
+package programm5;
 
-	void vorfuehren() 
-	{
-		System.out.println("Führe den Film vor");
+import javax.swing.JFrame;
+
+
+public class Film {
+
+	public static void main(String[] args) {
+		
+		JFrame fenster = new JFrame("Programmierkurs GUI");
+		fenster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		fenster.setSize(240,80);
+		fenster.setVisible(true);
 	}
+
 }
